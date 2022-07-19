@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of endpoint</title>
+</head>
+<body>
+
+<div>
+    <h3> List of endpoint: </h3>
+    <ul>
+    <li><a href="{% url 'today' %}">Today</a></li>
+    <li><a href="{% url 'hello_world' %}">Hello world</a></li>
+    <li><a href="{% url 'my_name' %}">My name</a></li>
+    <li><a href="{% url 'calculator' %}">Calculator</a></li>
+    <li><a href="{% url 'list_store' %}">List of store's</a></li>
+    <li><a href="{% url 'add_store' %}">Add store</a></li>
+    <li><a href="{% url 'detail_store' 1 %}">Method PUT</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
